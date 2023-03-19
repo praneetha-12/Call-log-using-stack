@@ -52,7 +52,7 @@ int main()
             printf("Calling %s\n",name);
             break;
 
-            case 2://pop or check your recent CALL
+            case 2: //pop or check your recent CALL
             reply=pop(stack,&top,name);
             if(reply==-1)
             printf("No recent calls made\n");
@@ -62,7 +62,7 @@ int main()
 
             case 3:
             exit(0);
-
+            
             default:
             printf("We are sorry, we can neither place your call or allow you to check any kind of details\n");
         }
